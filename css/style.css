@@ -70,3 +70,14 @@ header {
 #pre-footer {
     background-color: var(--bg-prefooter);
 }
+
+/* ------------------
+    FOOTER 
+------------------ */
+#footer {
+    background-color: var(--bg-footer);
+    text-align: center;
+}
+#footer small {
+    display: block;
+}
