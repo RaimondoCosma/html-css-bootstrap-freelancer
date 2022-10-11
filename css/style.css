@@ -16,6 +16,15 @@
 body {
     color: white;
 }
+h2 {
+    color: black;
+    text-align: center;
+}
+.debug-card {
+    height: 18.75rem;
+    background-color: #0e38b5;
+    border: 2px solid white;
+}
 /* ------------------
     HEADER  
 ------------------ */
