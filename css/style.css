@@ -46,3 +46,13 @@ header {
     height: 15.625rem;
     background-color: wheat;
 }
+
+/* ------------------
+    ABOUT  
+------------------ */
+#about {
+    background-color: var(--bg-hero);
+}
+#about h2 {
+    color: inherit;
+}
