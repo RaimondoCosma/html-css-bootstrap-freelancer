@@ -22,3 +22,18 @@ body {
 header {
     background-color: var(--bg-header);
 }
+
+/* ------------------
+    MAIN  
+------------------ */
+/* ------------------
+    HERO  
+------------------ */
+#hero {
+    background-color: var(--bg-hero);
+}
+#hero img {
+    width: 15.625rem;
+    height: 15.625rem;
+    background-color: wheat;
+}
