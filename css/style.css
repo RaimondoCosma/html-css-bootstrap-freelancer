@@ -56,3 +56,10 @@ header {
 #about h2 {
     color: inherit;
 }
+
+/* ------------------
+    CONTACT ME  
+------------------ */
+#contact-me p {
+    color: black;
+}
