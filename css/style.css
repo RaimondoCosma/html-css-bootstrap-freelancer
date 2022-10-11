@@ -63,3 +63,10 @@ header {
 #contact-me p {
     color: black;
 }
+
+/* ------------------
+    PRE-FOOTER 
+------------------ */
+#pre-footer {
+    background-color: var(--bg-prefooter);
+}
