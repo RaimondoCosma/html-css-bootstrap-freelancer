@@ -13,9 +13,6 @@ header {
 }
 
 /* ------------------
-    MAIN  
------------------- */
-/* ------------------
     HERO  
 ------------------ */
 #hero {
@@ -39,9 +36,6 @@ header {
 #about {
     background-color: var(--ms-bg-first-color);
 }
-#about h2 {
-    color: inherit;
-}
 
 /* ------------------
     CONTACT ME  
@@ -54,14 +48,14 @@ header {
     PRE-FOOTER 
 ------------------ */
 #pre-footer {
-    background-color: var(--bg-prefooter);
+    background-color: var(--ms-bg-second-color-light);
 }
 
 /* ------------------
     FOOTER 
 ------------------ */
 #footer {
-    background-color: var(--bg-footer);
+    background-color: var(--ms-bg-second-color);
     text-align: center;
 }
 #footer small {

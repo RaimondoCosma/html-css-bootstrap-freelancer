@@ -13,3 +13,19 @@
     --ms-first-color: white;
     --ms-second-color: black;
 }
+/* ------------------
+    COLORS-CLASS
+------------------ */
+.ms-btn-color {
+    color: var(--ms-first-color);
+}
+.ms-border-color {
+    border: 1px solid var(--ms-first-color);
+}
+/* ------------------
+    SPACER
+------------------ */
+.ms-px-7 {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+}
