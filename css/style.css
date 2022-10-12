@@ -1,15 +1,5 @@
-:root {
-    --bg-header: #2c3e50;
-    --bg-hero: #1abc9c;
-    --bg-card-1: #ba4b63;
-    --bg-card-2: #1ea4b6;
-    --bg-card-3: #140f0f;
-    --bg-card-4: #1c83c1;
-    --bg-card-5: #0e38b5;
-    --bg-card-6: #ccb2a3;
-    --bg-prefooter: #3a546d;
-    --bg-footer: #2c3e50;
-}
+@import 'utility.css';
+@import 'components/ms-card.css';
 /* ------------------
     COMMONS  
 ------------------ */
@@ -25,11 +15,18 @@ h2 {
     background-color: #0e38b5;
     border: 2px solid white;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* ------------------
     HEADER  
 ------------------ */
 header {
-    background-color: var(--bg-header);
+    background-color: var(--ms-bg-second-color);
+}
+.logo {
+    font-size: 1.125rem;
 }
 
 /* ------------------
@@ -39,7 +36,7 @@ header {
     HERO  
 ------------------ */
 #hero {
-    background-color: var(--bg-hero);
+    background-color: var(--ms-bg-first-color);
 }
 #hero img {
     width: 15.625rem;
@@ -51,7 +48,7 @@ header {
     ABOUT  
 ------------------ */
 #about {
-    background-color: var(--bg-hero);
+    background-color: var(--ms-first-color);
 }
 #about h2 {
     color: inherit;
