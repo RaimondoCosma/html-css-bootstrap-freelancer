@@ -40,8 +40,8 @@ header {
 /* ------------------
     CONTACT ME  
 ------------------ */
-#contact-me p {
-    color: black;
+#contact-me {
+    color: var(--ms-second-color);
 }
 
 /* ------------------
