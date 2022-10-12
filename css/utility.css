@@ -29,3 +29,12 @@
     padding-left: 4.375rem;
     padding-right: 4.375rem;
 }
+
+/* ------------------
+    BORDER-FORM 
+------------------ */
+.ms-border-form {
+    border: none;
+    border-radius: none;
+    border-bottom: 1px solid #cccccc;
+}
