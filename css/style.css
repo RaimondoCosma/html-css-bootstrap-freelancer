@@ -1,49 +1,6 @@
 @import 'utility.css';
 @import 'components/ms-card.css';
-/* ------------------
-    COMMONS  
------------------- */
-body {
-    color: var(--ms-first-color);
-}
-h2 {
-    color: black;
-    text-align: center;
-}
-.debug-card {
-    height: 18.75rem;
-    background-color: #0e38b5;
-    border: 2px solid white;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-.ms-star-icon{
-    position: relative;
-    font-size: 2.1875rem;
-    width: 30%;
-}
-.ms-star-icon::before {
-    content: '';
-    position: absolute;
-    height: .3125rem;
-    width: 35%;
-    background-color: currentColor;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
-.ms-star-icon::after {
-    content: '';
-    position: absolute;
-    height: .3125rem;
-    width: 35%;
-    background-color: currentColor;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-}
+@import 'common.css';
 
 /* ------------------
     HEADER  
