@@ -27,10 +27,17 @@ header {
 }
 
 /* ------------------
+    PORTFOLIO  
+------------------ */
+#portfolio {
+    color: var(--ms-second-color);
+}
+
+/* ------------------
     ABOUT  
 ------------------ */
 #about {
-    background-color: var(--ms-first-color);
+    background-color: var(--ms-bg-first-color);
 }
 #about h2 {
     color: inherit;
