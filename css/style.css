@@ -19,6 +19,32 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.ms-star-icon{
+    position: relative;
+    font-size: 2.1875rem;
+    width: 30%;
+}
+.ms-star-icon::before {
+    content: '';
+    position: absolute;
+    height: .3125rem;
+    width: 35%;
+    background-color: currentColor;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.ms-star-icon::after {
+    content: '';
+    position: absolute;
+    height: .3125rem;
+    width: 35%;
+    background-color: currentColor;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
 /* ------------------
     HEADER  
 ------------------ */
@@ -41,7 +67,6 @@ header {
 #hero img {
     width: 15.625rem;
     height: 15.625rem;
-    background-color: wheat;
 }
 
 /* ------------------
