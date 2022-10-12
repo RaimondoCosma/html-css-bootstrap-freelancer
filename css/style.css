@@ -1,6 +1,7 @@
 @import 'utility.css';
 @import 'components/ms-card.css';
 @import 'common.css';
+@import 'typography.css';
 
 /* ------------------
     HEADER  
@@ -20,14 +21,7 @@ header {
 }
 #hero img {
     width: 15.625rem;
-    height: 15.625rem;
-}
-
-/* ------------------
-    PORTFOLIO  
------------------- */
-#portfolio {
-    color: var(--ms-second-color);
+    height: 100%;
 }
 
 /* ------------------
@@ -38,21 +32,12 @@ header {
 }
 
 /* ------------------
-    CONTACT ME  
------------------- */
-#contact-me {
-    color: var(--ms-second-color);
-}
-
-/* ------------------
     PRE-FOOTER 
 ------------------ */
 #pre-footer {
     background-color: var(--ms-bg-second-color-light);
 }
-#pre-footer strong{
-    color: #1abc9c
-}
+
 /* ------------------
     FOOTER 
 ------------------ */

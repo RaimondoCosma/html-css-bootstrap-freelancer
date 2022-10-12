@@ -1,0 +1,13 @@
+/* ------------------
+    PORTFOLIO & CONTACT-ME
+------------------ */
+#portfolio, #contact-me {
+    color: var(--ms-second-color);
+}
+
+/* ------------------
+    PRE-FOOTER 
+------------------ */
+#pre-footer strong{
+    color: var(--ms-third-color);
+}
