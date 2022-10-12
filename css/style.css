@@ -4,7 +4,7 @@
     COMMONS  
 ------------------ */
 body {
-    color: white;
+    color: var(--ms-first-color);
 }
 h2 {
     color: black;
