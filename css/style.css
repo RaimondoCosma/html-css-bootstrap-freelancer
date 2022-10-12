@@ -50,7 +50,9 @@ header {
 #pre-footer {
     background-color: var(--ms-bg-second-color-light);
 }
-
+#pre-footer strong{
+    color: #1abc9c
+}
 /* ------------------
     FOOTER 
 ------------------ */
