@@ -1,0 +1,10 @@
+.ms-border-form {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+}
+.ms-border-form:focus {
+    box-shadow: none;
+    border-color: #666;
+}
